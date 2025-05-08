@@ -58,7 +58,6 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Calcular"/>
                                 <connections>
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TzC-1Q-hVg"/>
-                                    <action selector="calculateBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ngu-9n-gVM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9q-W4-u2X">

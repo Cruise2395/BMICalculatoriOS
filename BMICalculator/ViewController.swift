@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         heightLabel.text = "\(height) cm"
     }
     @IBAction func calculate(_ sender: Any) {
-        let result = Float(weight) / pow((Float(height) 100.0), 2)
-        resultLabel.text = String(format: "%2f", result)
+        let result = Float(weight) / pow ((Float(height) / 100.0), 2)
+        resultLabel.text = String(format: "%.2f", result)
     }
 }
 
